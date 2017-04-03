@@ -1,53 +1,49 @@
 <!DOCTYPE html>
-<html >
+<html>
+
 <head>
   <meta charset="UTF-8">
   <title>Twitch API</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-
-      <link rel="stylesheet" href="css/style.css">
-
-  
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <div class="container-fluid">
-  <div class="jumbotron">
-    <img src="http://s.jtvnw.net/jtv_user_pictures/hosted_images/Twitch_Logo_White.png" class="img-responsive center-block" alt="twitch logo" />
-    <br /> <br />
-    <!-- Nav tabs -->
-    <ul class="nav nav-tabs nav-justified" role="tablist">
-      <li role="presentation" class="active"><a href="#all" aria-controls="all" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> View All</a></li>
-      <li role="presentation"><a href="#online" aria-controls="online" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> Online</a></li>
-      <li role="presentation"><a href="#offline" aria-controls="offline" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-ban-circle" aria-hidden="true"></span> Offline</a></li>
-    </ul>
+    <div class="jumbotron">
+      <img src="Twitch_Logo_White.png" class="img-responsive center-block" alt="twitch logo" />
+      <br /> <br />
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs nav-justified" role="tablist">
+        <li role="presentation" class="active"><a href="#all" aria-controls="all" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> View All</a></li>
+        <li role="presentation"><a href="#online" aria-controls="online" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> Online</a></li>
+        <li role="presentation"><a href="#offline" aria-controls="offline" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-ban-circle" aria-hidden="true"></span> Offline</a></li>
+      </ul>
 
-    <!-- Tab panes -->
-    <div class="tab-content">
-      <div role="tabpanel" class="tab-pane active" id="all">
-        <div id="channel-list-all" class="list-group">
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="all">
+          <div id="channel-list-all" class="list-group">
 
+          </div>
         </div>
-      </div>
-      <div role="tabpanel" class="tab-pane" id="online">
-        <div id="channel-list-online" class="list-group">
+        <div role="tabpanel" class="tab-pane" id="online">
+          <div id="channel-list-online" class="list-group">
 
+          </div>
         </div>
-      </div>
-      <div role="tabpanel" class="tab-pane" id="offline">
-        <div id="channel-list-offline" class="list-group">
+        <div role="tabpanel" class="tab-pane" id="offline">
+          <div id="channel-list-offline" class="list-group">
 
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
-
-    <script src="js/index.js"></script>
-
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+  <script src="js/index.js"></script>
 </body>
+
 </html>
