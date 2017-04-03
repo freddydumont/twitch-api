@@ -1,0 +1,28 @@
+body{
+  background-color: white;
+  padding-top: 30px;
+}
+
+h4{
+  color: #6441A5;
+}
+
+.jumbotron{
+  background-color: #17141F;
+}
+
+.img-responsive{
+  max-width: 50%;
+}
+
+a{
+  color: white;
+}
+
+a:hover{
+  color: #6441A5;
+}
+
+.nav-tabs .active a{
+  color: #6441A5 !important;
+}
